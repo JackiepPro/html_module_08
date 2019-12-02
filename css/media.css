@@ -76,6 +76,23 @@
     .container {
         width: 320px;
     }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+
+    .menu,
+    .logo {
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 115px;
+    }
+
+    .one {
+        order: 1;
+    }
     
     .heading {
         color: #333333;
@@ -88,6 +105,7 @@
     .heading-intro {
         font-size: 30px;
         width: auto;
+        margin-top: 38px;
     }
     
     .box {
@@ -111,5 +129,14 @@
     
     .flex {
         flex-direction: column;
+    }
+
+    .red-btn {
+        width: 280px;
+    }
+
+    .intro-box {
+        display: block;
+        min-height: auto;
     }
 } 
