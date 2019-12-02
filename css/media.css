@@ -1,8 +1,8 @@
-@media screen and (max-width: 1440px) {
-    .container{
-        width: 942px;
+@media screen and (max-width: 768px) {
+     .container{
+        width: 492px;
         margin: 0 auto;
-    }
+    } 
 
     .menu li:nth-of-type(3){
         display: inline-block;
@@ -15,6 +15,10 @@
         justify-content: space-between;
     }
 
+    .box {
+        width: 47.96%;
+    }
+
     .one {
         order: 2;
     }
@@ -24,15 +28,15 @@
     }
 
     .one-1 {
-        order: 1;
+        order: 0;
     }
 
     .two-2 {
-        order: 2;
+        order: 3;
     }
 
     .three-3 {
-        order: 3;
+        order: 1;
     }
 
     .four-4 {
@@ -59,14 +63,20 @@
 
     .flex {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .name {
         padding: 0;
-    }
+    } 
 }
 
-/* @media screen and (max-width: 320px) {
+ @media screen and (max-width: 320px) { 
+    .container {
+        width: 320px;
+    }
+    
     .heading {
         color: #333333;
         text-align: center;
@@ -74,43 +84,18 @@
         padding-top: 70px;
         padding-bottom: 14px;
     }
+
+    .heading-intro {
+        font-size: 30px;
+        width: auto;
+    }
     
     .box {
         text-align: center;
         margin-bottom: 21px;
+        width: 100%;
     }
-    
-    .name span {
-        display: block;    
-        color: #666666;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-    }
-    
-    .image {
-        margin-bottom: 20px;
-        position: relative;
-    }
-    
-    .image::after {
-        display: block;
-        position: absolute;
-        content: "";
-        height: 40px;
-        width: 40px;
-        background-position: center;
-        background-repeat: no-repeat;
-        left: 0;
-        top: -85px;
-        right: -30px;
-        bottom: 0;
-        margin: 0 auto;
-        border-radius: 46px;
-        padding: 10px;
-        border: 2px solid #fff;
-        background-image: url(img/Shape-2.png);
-    }
-    
+
     .name {
         padding: 0 62px;
     }
@@ -120,13 +105,11 @@
     }
     
     .red-btn-2 {
-        background-color: transparent;
-        border: 2px solid #ff4e50;
-        color: #ff4e50;
-        padding: 14px 52px 12px 51px;
-        border-radius: 20px;
-        margin-top: 20px;
-        margin: 0 auto;
         width: 280px;
+        line-height: 2.6;
     }
-} */
+    
+    .flex {
+        flex-direction: column;
+    }
+} 
