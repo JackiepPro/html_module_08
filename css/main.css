@@ -39,6 +39,11 @@
     src: url(../fonts/DroidSerif-Italic.ttf);
 }
 
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
 .wrapper {
     padding-bottom:73px;
 }
@@ -316,6 +321,8 @@
 
 .heading-intro-sm {
     font-size: 24px;
+    font-family: 'Roboto-Light', sans-serif;
+
 }
 
 .flex {
